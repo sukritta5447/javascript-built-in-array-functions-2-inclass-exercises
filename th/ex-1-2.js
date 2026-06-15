@@ -8,6 +8,14 @@
 */
 
 // Start coding here
+// ใช้ .include ในเงื่อนไข if-else เพื่อแสดงผลลัพธ์ที่ต่างกันในกรณีมี-ไม่มีสินค้า
+function findIfItemExist(products, productName){
+    if (products.includes(productName)){
+        return `พบ ${productName} ในรายการสินค้า`
+    } else {
+        return `ไม่พบ ${productName} ในรายการสินค้า`
+    }
+}
 
 const products = ["milk", "bread", "eggs", "butter", "cheese", "orange juice"];
 

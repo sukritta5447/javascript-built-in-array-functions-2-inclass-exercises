@@ -8,6 +8,10 @@
 */
 
 // Start coding here
+// ต้องใช้ .slide เพื่อตัดรายชื่อแขก โดยให้ index สุดท้ายเป็น number
+function availableSeat(guestList, number){
+    return guestList.slice(0, number)
+}
 
 const guestList = [
   "John",

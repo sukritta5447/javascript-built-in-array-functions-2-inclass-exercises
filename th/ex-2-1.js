@@ -9,6 +9,10 @@
 */
 
 // Start coding here
+function organizeSeat(guestList, startSeatNo, numberOfGuest){
+    guestList.splice(startSeatNo, numberOfGuest);   // ตัดแขกที่ได้ที่นั่งออก
+    return guestList                                // return แขกที่รอคิว
+}
 
 const guestList = [
   "John",
